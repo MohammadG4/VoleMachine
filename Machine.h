@@ -19,9 +19,9 @@ private:
     int programCounter = 0;
 
     public:
-    void getInstruction(string txt);
-    void runInstruction();
-    void displayConsole();
+    void getInstruction();
+    void runInstruction(int start, bool printWhole);
+    void displayConsole(bool printWhole);
 };
 
 

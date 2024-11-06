@@ -19,8 +19,8 @@ private:
     vector<string> instruct;
 
 public:
-    void readFromFile(const string &txt);
-    void decode(Register &registers, Memory &memory, int &programCounter);
+    void readFromFile();
+    void decode(Register &registers, Memory &memory, int &programCounter,int start,bool printWhole);
 
 };
 
